@@ -1,0 +1,5 @@
+Razer Blade,Razer,2000,300,i7 7th Gen,RTX 3060                                 
+XPS,Dell,1976,200,i5 9th Gen,RTX 2060                                 
+Alienware,Alienware,1978,24,i5 12th Gen,RTX 3070                                 
+Swift 7,Acer,900,12,i5 9th Gen,RTX 3060 ti                                 
+Mackbook pro 16,Apple,3500,10,i9 12th Gen,RTX 3090 ti                                 
