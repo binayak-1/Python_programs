@@ -1,5 +1,5 @@
 def buy_edit_file(laptops, S, Q):
-    '''This functionedits the quantity of the products in the txt file after user has finished buying.'''
+    '''This function edits the quantity of the products in the txt file after user has finished buying.'''
     added = int(laptops[S][3]) + int(Q)
     laptops[S][3] = str(added)
     with open("Available_Laptops.txt", "w") as f:
@@ -8,7 +8,7 @@ def buy_edit_file(laptops, S, Q):
 
 
 def sell_edit_file(laptops, S, Q):
-    '''This functionedits the quantity of the products in the txt file after user has finished selling.'''
+    '''This function edits the quantity of the products in the txt file after user has finished selling.'''
     subtracted = int(laptops[S][3]) - int(Q)
     laptops[S][3] = str(subtracted)
     with open("Available_Laptops.txt", "w") as f:
